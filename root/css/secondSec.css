@@ -1,0 +1,22 @@
+
+section.second{
+background-color: white;
+display:flex;
+flex-direction: column;
+}
+section.second>*>h1{
+font-size: 50px;
+margin-bottom: 5%;
+margin-left:200px;
+font-weight: 600;
+font-family: "work-sans",sans-serif;
+color:black;
+}
+
+section.second>*>p{
+font-family: "work-sans", sans-serif;
+font-weight: 500;
+font-style: normal;
+font-size: 18px;
+color: #000000;
+}

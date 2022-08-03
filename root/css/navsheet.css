@@ -1,0 +1,36 @@
+button.nav{
+  background: #000000;
+  border-color: #000000;
+}
+.navBar{
+display: flex;
+justify-content: center;
+}
+
+ul {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+
+li {
+  float: left;
+}
+
+li button {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li button:hover {
+  background-color: #111;
+}
+button.nav{
+  background: #000000;
+}
