@@ -1,10 +1,14 @@
 button.nav{
   background: #000000;
   border-color: #000000;
+  color:#ffffff;
+  font-size: 15px;
+  
 }
 .navBar{
 display: flex;
 justify-content: center;
+background: #000000;
 }
 
 ul {
@@ -12,9 +16,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgba(0, 0, 0, 0);
 }
-
 
 li {
   float: left;
@@ -22,15 +24,18 @@ li {
 
 li button {
   display: block;
-  color: white;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;
 }
 
 li button:hover {
-  background-color: #111;
+  text-shadow: 1px 0px 5px #ffffff;
+  transition: 0.5s;
 }
-button.nav{
+
+.sticky {
+  position: fixed;
+  width: 100%;
+  padding-top: 8px;
   background: #000000;
 }

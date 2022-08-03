@@ -1,11 +1,11 @@
 
-section.second{
+section.third{
 background-color: white;
 display:flex;
 flex-direction: column;
 height:100vh;
 }
-section.second>*>h1{
+section.third>*>h1{
 font-size: 50px;
 margin-top: 5%;
 margin-left:200px;
@@ -14,7 +14,7 @@ font-family: "work-sans",sans-serif;
 color:black;
 }
 
-section.second>*>p{
+section.third>*>p{
 font-family: "work-sans", sans-serif;
 font-weight: 500;
 font-style: normal;

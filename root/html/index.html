@@ -5,18 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" author="Eduardo Visinheski" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/stylesheet.css">
-    <link rel="stylesheet" href="../css/secondSec.css">
-    <link rel="stylesheet" href="../css/navSheet.css">
+    <link rel="stylesheet" type="text/css" href="../css/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="../css/secondSec.css">
+    <link rel="stylesheet" type="text/css" href="../css/navSheet.css">
+    <link rel="stylesheet" type="text/css" href="../css/thirdSec.css">
+    <link rel="stylesheet" type="text/css" href="../css/fourthSec.css">
+    <link rel="stylesheet" type="text/css" href="../css/gradient.css">
     <link rel="icon" type="image/x-icon" href="../images/Favicon Logo.png">
-    <link rel="stylesheet" href="https://use.typekit.net/vjl1vwo.css">
+    <link rel="stylesheet" type="text/font" href="https://use.typekit.net/vjl1vwo.css">
     <title>1BLOCK</title>
 </head>
 
-<body>
+<body class="scrollbar-hidden">
     <section class="first" id="home">
-        <header>
-            <nav class="navBar">
+        <header id="topnav" class="sticky">
+            <nav role='navigation' class="navBar">
                 <ul>
                     <li><button class="nav" id="scrollHome">Home</button></li>
                     <li><button class="nav" id="scrollWork">Work</button></li>
@@ -45,8 +48,13 @@
                 </article>
                 <footer class="mail">
                     <p>Subscribe to our mailling list!</p>
-                    <input type="email" pattern="[^ @]*@[^ @]*" placeholder="Enter your email">
-                    <input type="submit" value="Submit">
+                    <div class="form-style">
+                        <form action="Submit">
+                            <input type="email" pattern="[^ @]*@[^ @]*" placeholder="Enter your email">
+                            <input type="submit" value="Submit">
+                        </form>
+                    </div>
+                    <br>
                     <p>Thanks for subscribing!</p>
                 </footer>
             </section>
@@ -56,7 +64,7 @@
         <header>
             <h1>Work</h1>
         </header>
-        <article>
+        <article class="textBox">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur congue dui sit amet diam posuere
                 rhoncus a at dolor.
                 Quisque venenatis ligula nec tincidunt venenatis. In posuere lectus a tristique interdum. Curabitur
@@ -70,7 +78,44 @@
                 lobortis aliquam.</p>
         </article>
     </section>
-    <script src="../javascript/scroll.js"></script>
+    <section id="references" class="third">
+        <header>
+            <h1>References</h1>
+        </header>
+        <article class="textBox">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur congue dui sit amet diam posuere
+                rhoncus a at dolor.
+                Quisque venenatis ligula nec tincidunt venenatis. In posuere lectus a tristique interdum. Curabitur
+                sapien lorem,
+                suscipit luctus pulvinar nec, mollis sit amet neque. Quisque fermentum, odio quis porta feugiat, justo
+                elit ullamcorper
+                lorem, imperdiet viverra ipsum odio ac magna. Orci varius natoque penatibus et magnis dis parturient
+                montes, nascetur
+                ridiculus mus. Fusce facilisis ut lectus ut scelerisque. Mauris nec dapibus dolor, nec rhoncus felis.
+                Mauris interdum
+                lobortis aliquam.</p>
+        </article>
+    </section>
+    <section id="about" class="fourth">
+        <header>
+            <h1>About</h1>
+        </header>
+        <article class="textBox">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur congue dui sit amet diam posuere
+                rhoncus a at dolor.
+                Quisque venenatis ligula nec tincidunt venenatis. In posuere lectus a tristique interdum. Curabitur
+                sapien lorem,
+                suscipit luctus pulvinar nec, mollis sit amet neque. Quisque fermentum, odio quis porta feugiat, justo
+                elit ullamcorper
+                lorem, imperdiet viverra ipsum odio ac magna. Orci varius natoque penatibus et magnis dis parturient
+                montes, nascetur
+                ridiculus mus. Fusce facilisis ut lectus ut scelerisque. Mauris nec dapibus dolor, nec rhoncus felis.
+                Mauris interdum
+                lobortis aliquam.</p>
+        </article>
+    </section>
+    <script type="text/javascript" src="../javascript/scroll.js"></script>
+    <script type="text/javascript" src="../javascript/stickyNav.js"></script>
 </body>
 
 </html>
