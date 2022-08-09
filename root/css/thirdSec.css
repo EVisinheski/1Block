@@ -3,7 +3,7 @@ section.third{
 background-color: white;
 display:flex;
 flex-direction: column;
-height:100vh;
+height:auto;
 }
 section.third>*>h1{
 font-size: 50px;

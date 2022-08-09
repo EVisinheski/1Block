@@ -124,8 +124,8 @@ color: #EEF8F7;
 	-moz-box-shadow: inset 0px 1px 0px 0px #ffffff00;
 	-webkit-box-shadow: inset 0px 1px 0px 0px #ffffff00;
 	box-shadow: inset 0px 1px 0px 0px #ffffff00;
-	background-color: #ffffff00;
 	border: 1px solid #ffffff;
+  background-color: #d6581d;
   color: #EEF8F7;
 
 	cursor: pointer;
@@ -140,8 +140,8 @@ color: #EEF8F7;
 .form-style input[type="button"]:hover, 
 .form-style input[type="submit"]:hover {
 	background:#EEF8F7;
-	color: #000000;
   transition: 0.5s;
+  color:#000000;
 }
 
 input:focus {
@@ -166,17 +166,36 @@ input:focus {
 	outline: none;
 	width: 100%;
 	padding: 7px;
-	border: none;
-	border-bottom: 1px solid #ddd;
+	border: 1px solid #ddd;
 	background: transparent;
 	margin-bottom: 10px;
 	font: 16px Arial, Helvetica, sans-serif;
 	height: 45px;
+  background-color: #d6581d;
 }
 .form-style{
   display: flex;
 }
-
 ::placeholder{
-  color:#EEF8F7;
+  color:#e3e5e5;
+}
+
+.imageContainer{
+    display: flex;
+  flex-wrap: wrap;
+}
+.imageContainer .images {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  height:auto;
+  background-color: rgb(14, 56, 196);
+}
+
+.imageContainer img {
+  width:50%;
+  height: auto;
+  margin: 20px;
+  display: flex;
+  object-fit: contain;
 }

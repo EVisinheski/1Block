@@ -1,14 +1,15 @@
 button.nav{
-  background: #000000;
-  border-color: #000000;
+  background: #E35F2100;
+  border-color: #00000000;
   color:#ffffff;
-  font-size: 15px;
+  font-size: 25px;
   
 }
 .navBar{
 display: flex;
-justify-content: center;
-background: #000000;
+justify-content: right;
+background: #00000000;
+margin-left: 0px;
 }
 
 ul {
@@ -37,5 +38,5 @@ li button:hover {
   position: fixed;
   width: 100%;
   padding-top: 8px;
-  background: #000000;
+  background: #00000000;
 }

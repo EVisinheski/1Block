@@ -1,4 +1,7 @@
+function displayIframe() {
+    document.getElementById("iframeDisplay").innerHTML = "<iframe src=\"../html/ref1.html\" height=\"200\" width=\"300\" ></iframe>";
 
+}
 
 /*
 Currently not working in future to
